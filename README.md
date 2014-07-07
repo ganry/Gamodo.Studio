@@ -35,14 +35,17 @@ Sample Quicklet xml
 ##Editor Control##
 
 I'dont remember all highlights of this one, but you can look at the source.
+
 ![Editor Control](/screens/editor_control.jpg)
 
 ##Code completion##
 
 HTML is fully supported (other languages can be added easily) even with events, attributes and help text in german and english.
+
 ![code completion](/screens/code_completion.jpg)
 
 ##Help Browser##
 
 I've wrote a little Help Browser. It can load from different sources. 
+
 ![Help Browser](/screens/help_browser.jpg)
