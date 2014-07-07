@@ -34,7 +34,7 @@ Sample Quicklet xml
 
 ##Editor Control##
 
-I'dont remeber all highlights of this one, but you can look at the source.
+I'dont remember all highlights of this one, but you can look at the source.
 ![Editor Control](/screens/editor_control.jpg)
 
 ##Code completion##
