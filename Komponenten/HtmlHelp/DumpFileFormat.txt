@@ -1,0 +1,252 @@
+This file describes the format of the dump file. The data stored in the dumpfile are dynamic, depending on
+the flags you have set in the DumpingInfo class.
+
+Using the dump file can speed up the loading process. Especially if the CHM file contains a large sitemap table
+of contents/index file (~800KB may take up to 10 sec on 1.8GHz CPUs). Switching from the sitemap-format 
+to the dump file can speed up the loading process over 90% (same toc read from dump in ~<0.5 sec on 1.8GHz CPUs).
+If your CHM contains a large binary index/toc the dump-file usage aprox. halves the load time.
+If you use dumping for files with a large amount of index/toc entries, it may be performant if you add the #URLSTR
+and #STRINGS files to the dump (using the dumping flags).
+
+Examples:
+Test done on: Intel Xeon 3.06GHz HT, 1GB Ram, WinXP, SCSI-HDs
+DumpingFlags set: DumpingFlags.DumpBinaryTOC | DumpingFlags.DumpTextTOC | 
+				  DumpingFlags.DumpTextIndex | DumpingFlags.DumpBinaryIndex | 
+				  DumpingFlags.DumpUrlStr | DumpingFlags.DumpStrings
+				  
+Dump comrpession: DumpCompression.Medium
+
+DirectX9 SDK CHM (binary index and binary TOC):
+	Read time without dump:   --- HtmlHelp file read in 00:00:02.1874784
+	Write time of dump data*: --- Dump written in 00:00:01.0937360        (dump file size: ~780KB)
+
+	Read time with dump:      --- HtmlHelp file read in 00:00:00.7499904  (dump file size: ~780KB)
+	Net read time of dump:    --- Dump read in 00:00:00.5781176           (dump file size: ~780KB)
+
+
+CHM with a ~900KB sitemap TOC (binary index and text-based TOC):
+	Read time without dump:   --- HtmlHelp file read in 00:00:05.7811760  (slow RegEx parsing :( )
+	Write time of dump data*: --- Dump written in 00:00:00.5156184 (dump file size: ~300KB)
+
+	Read time with dump:      --- HtmlHelp file read in 00:00:00.3437456  (dump file size: ~300KB)
+	Net read time of dump:    --- Dump read in 00:00:00.2187472           (dump file size: ~300KB)
+
+* the write time of the dump is not included in the "Read time without dump" timespan.
+
+I think the two examples above shows how the usage of the data dumping can speed up the loading process.
+
+Another pro of using dump files is, that you will save a few MBs of memory, because only the necessary fields
+are stored and loaded from the dump file. Also the initial size of strings is known when reading the dump,
+so the .NET Framework can instantiate the string instance with an initial size.
+
+The dumpfile starts with the following header:
+
+BYTE		size of signature text (n)
+BYTEs		n Bytes which forms a signature string
+DWORD		compression level
+
+compression level		description
+------------------------------------------------------------------
+	0					None, no compression stream is used
+	1					Minimum compression
+	2					Medium compression
+	3					Maximum compression
+
+
+Depending on the compression level, the following block differs (see ChmDecoing\DumpingInfo.cs line 312 
+(for writing) and line 369 (for reading)).
+If compression level = 0 (no compression), the following format can be read 1:1 from the
+dump file. If compression level > 0, you have to create an InflaterInputStream() instance
+from the ICSharpCode.SharpZibLib library and attach it to the current file stream.
+Using this inflater stream, you can read the compressed data as described below (decompression
+will be done by the inflater):
+
+BYTE			size of signature text (n)  (same as in header above !)
+BYTEs			n Bytes which forms a signature string (same as above)
+BYTE			size of timestamp string (m)
+BYTEs			m Bytes which forms a date/time for the last write access of the CHM
+				The string has the following format: "dd.MM.yyyy HH:mm:ss.ffffff"
+DWORD			used encoding ansi-codepage
+
+BYTE			boolean flag (0=false, 1=true) specifying if the dump should contain the data
+				of the #STRINGS file.
+	
+	if the previous flag returns TRUE
+		BYTE		boolean flag (0=false, 1=true) specifying if the #STRINGS data is supported by the CHM
+		
+		if the previous flag returns TRUE the dump of #STRINGS follows
+			DWORD	number of dictionary pairs (key, value) (cnt)
+			
+			for each dictionary entry (cnt times)
+				DWORD	offset of the string entry in the #STRINGS file (=key)
+				BYTE	size of following string (n)
+				BYTEs	n Bytes which forms the value string
+		
+		
+BYTE			boolean flag (0=false, 1=true) specifying if the dump should contain the data
+				of the #URLSTR file.
+	
+	if the previous flag returns TRUE
+		BYTE		boolean flag (0=false, 1=true) specifying if the #URLSTR data is supported by the CHM
+		
+		if the previous flag returns TRUE the dump of #URLSTR follows		
+			DWORD	number of dictionary pairs for urls (key, value) (cnt)
+			
+			for each dictionary entry (cnt times)
+				DWORD	offset of the string entry in the #STRINGS file (=key)
+				BYTE	size of following string (n)
+				BYTEs	n Bytes which forms the value string
+			
+			DWORD	number of dictionary pairs for frame names (key, value) (cnt)
+			
+			for each dictionary entry (cnt times)
+				DWORD	offset of the string entry in the #STRINGS file (=key)
+				BYTE	size of following string (n)
+				BYTEs	n Bytes which forms the value string
+		
+BYTE			boolean flag (0=false, 1=true) specifying if the dump should contain the data
+				of the #URLTBL file.
+	
+	if the previous flag returns TRUE
+		BYTE		boolean flag (0=false, 1=true) specifying if the #URLTBL data is supported by the CHM
+		
+		if the previous flag returns TRUE the dump of #URLTBL follows
+			DWORD	number of urltable entries (cnt)
+			
+			for each urltable entry (cnt times)
+				DWORD	offset into urlstr file
+				DWORD	offset of this entry
+				DWORD	index into topics file
+				DWORD	offset into urlstr file
+		
+BYTE			boolean flag (0=false, 1=true) specifying if the dump should contain the data
+				of the #TOPICS file.
+	
+	if the previous flag returns TRUE
+		BYTE		boolean flag (0=false, 1=true) specifying if the #TOPICS data is supported by the CHM
+		
+		if the previous flag returns TRUE the dump of #TOPICS follows
+			DWORD	number of topic entries (cnt)
+			
+			for each topic entry (cnt times)
+				DWORD	offset of the entry
+				DWORD	offset into tocidx file (binary toc)
+				DWORD	offset into strings for the topic title
+				DWORD	offset into urltable
+				DWORD	visibility mode
+				DWORD	unknown mode
+		
+BYTE			boolean flag (0=false, 1=true) specifying if the dump should contain the data
+				of the $FIftiMain (Full-text search) file.
+	
+	if the previous flag returns TRUE
+		BYTE		boolean flag (0=false, 1=true) specifying if the $FIftiMain data is supported by the CHM
+		
+		if the previous flag returns TRUE the dump of $FIftiMain follows
+			Header of full-text engine
+				DWORD	number of index files
+				DWORD	root offset
+				DWORD	page count
+				DWORD	depth of the tree
+				DWORD	scale for document index
+				DWORD	root for document index
+				DWORD	scale for code count
+				DWORD	root for code count
+				DWORD	scale for location codes
+				DWORD	root for location codes
+				DWORD	size of the index/leaf nodes
+				DWORD	length of longest word
+				DWORD	total number of words
+				DWORD	total number of unique words
+			End of header
+			
+			DWORD	number of bytes following (binary full-text index) (n)
+			BYTEs	n Bytes which represent the binary full-text index byte array
+		
+BYTE			boolean flag (0=false, 1=true) specifying if a table of contents is in the dump file
+
+	if previous flag returns TRUE
+		DWORD		number of TOC items (n)
+		
+		A: for each toc item (n times)
+			DWORD		toc mode (0 = text based toc, 1 = binary toc)
+			DWORD		offset into topics file
+			BYTE		size of the following string
+			BYTEs		string which forms the name of the toc item
+			
+			if toc mode = text based and topics offset < 0
+				BYTE	size of the following string
+				BYTEs	string which forms the local of the toc item
+			
+			DWORD		image index of this toc item
+			BYTE		size of the following string
+			BYTEs		string which forms a merge link (e.g. xy.chm::/toc.hhc)
+			DWORD		number of information type associations (o)
+			
+			for each information type association (o times)
+				BYTE	size of following string
+				BYTEs	string which forms the information type string
+				
+			DWORD		number of child toc items (m)
+			
+			for each child toc item (m times) 
+				each child item is a toc item, so repeat reading from mark (A:)
+			
+BYTE			boolean flag (0=false, 1=true) specifying if a index is in the dump file
+
+	if previous flag returns TRUE	
+		DWORD		number of index items (ALinks) (n)
+		
+		for each index item (n times)
+			BYTE		size of following string
+			BYTEs		bytes which forms the keyword string
+			BYTE		boolean flag, true if the index item is a see also keyword
+			DWORD		index indent
+			DWORD		number of information type associations (o)
+			
+			for each information type association (o times)
+				BYTE	size of following string
+				BYTEs	string which forms the information type string
+				
+			DWORD		number of see-also strings (cnt)
+			
+			for each see-also string (cnt times)
+				BYTE	size of the string
+				BYTEs	bytes forming a see-also keyword
+			
+			DWORD		number of topic entries (cnt)
+			
+			for each topic entry (cnt times)
+				DWORD	topic mode (0...text-based, 1...binary)
+				
+				if topic mode = 0
+					BYTE	size of following string
+					BYTEs	bytes forming the title string
+					BYTE	size of following string
+					BYTEs	bytes forming the topic local
+				
+				if topic mode = 1
+					DWORD	offset into topics file
+					
+DWORD	number of information types in dump (n)
+
+for each information type (n times)
+	DWORD	information type mode
+	BYTE	size of following string
+	BYTEs	string wich represents the name of the information type
+	BYTE	size of following string
+	BYTEs	string which represents the descriptin of the information type
+	
+DWORD	number of categories in dump (n)
+
+for each category (n times)
+	BYTE	size of following string
+	BYTEs	string wich represents the name of the category
+	BYTE	size of following string
+	BYTEs	string which represents the descriptin of the category
+	DWORD	number of information types assigned to this category (m)
+	
+	for each information type (m times)
+		BYTE	size of following string
+		BYTEs	string wich represents the name of the information type
+		

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="codeBrowserControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="codeBrowserControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="codeBrowserControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 413</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="codeBrowserControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;codeBrowserControl.Name" xml:space="preserve">
+    <value>codeBrowserControl</value>
+  </data>
+  <data name="&gt;&gt;codeBrowserControl.Type" xml:space="preserve">
+    <value>ActiveWare.CodeBrowser.CodeBrowserControl, ActiveWare.CodeBrowser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;codeBrowserControl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;codeBrowserControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cbxLanguage.Items" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="cbxLanguage.Items1" xml:space="preserve">
+    <value>PHP</value>
+  </data>
+  <data name="cbxLanguage.Items2" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="cbxLanguage.Items3" xml:space="preserve">
+    <value>JavaScript</value>
+  </data>
+  <data name="cbxLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="tbAutoDetectLanguage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ6SURBVDhPhVPfS5NRGP4scSNzyzXTgd5U/4EGQTdFEnjX
+        VRddFVFB0EW1io02p5uU3RRRiESBgxBFcs798kcNzbJslERRbUPz26a5zc1NN6dTn97ztZHfdtELD985
+        74/nfc85z8dxBSbXD4SPdUyg6dkkjj55g1LNICRamwApYc8dO+TNDihbXKgzvjokKq802I3dn4P4nw17
+        F/GBj0Gps7tFBKVaayhfnN3eBsPmDmzngic632F8NoqGR2MQETQ9fy+krKxvIpHJipCkfWpjU4iX3Lai
+        tm0YB9tH/xFUNbv3nnnhERIi6XWEU+uIFIARbNFEUnXPNHWuz+HvEDKtpeGe2ycQhBJrAuaTGQH5fSa7
+        halAHOXqbmvh5XMVmr4bI74wYmsbmI2nECACNgUDWzMw6/s6j8prXQ+LCMpv9Tz1BJfBx9PwL61icXUN
+        3PV+ASE2BYFTW+gZbVBc6ThXRCDVWL6wDt+jSfxaTlFyPybm0thNF8Yn0+ATKeyi9cdQBgqDQ3z7jK3a
+        5IwzgpnYqlBsnl7CKbMPZSQk5vsZXQF304LGLi96v8VJSDkSlWkIMr0D+4j1yONx6jKAu+O/cbrbD7ne
+        huOdb2Fye/GDJmMm0ViF2IPJCFRGFziFwSkSXgkRXHXyOPtyBjKdDZ5gDIfvj2KWjhVMpEnOViGmHglC
+        ZSICpbZ3qn3MjzkK8gT2Cqzwkp3HRRuPCp0d5k88lkgbZdT9wiCPy/YAqlud7B7qOfnJ843sx5DTMdhR
+        2EQ1NBpLULsXcKDVhSqK729x0pd8rxdQky/OPYVkh6ry6hK+tW1DqCPJ5uNszXwiBRa9p9ghlmuhfCn3
+        D0QcQ3GHZUfpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbAutoDetectLanguage.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbAutoDetectLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbAutoDetectLanguage.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 413</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>519, 438</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8AAAAAGwAAACYAAAAmAAAAJgAAABsAAAAbAAAAJgAAACYAAAAmAAAAGwAAABsAAAAmAAAAJgAA
+        ACYAAAAb////AK16E723gxj/toIX/7eDGP+tehO9rXoTvbeDGP+2ghf/t4MY/616E72tehO9t4MY/7aC
+        F/+3gxj/rXoTvf///wC3ghj/9s6Q/++9a//2zpD/toIX/7aCF//2zpD/771r//bOkP+2ghf/toIX//bO
+        kP/vvWv/9s6Q/7eCGP////8AtoEV//XWo//ioTX/9daj/7WAFP+1gBT/9daj/+KhNf/11qP/tYAU/7WA
+        FP/11qP/4qE1//XWo/+2gRX/////ALeCF//32Kf/9dWi//fYp/+2gRX/toEV//fYp//11aL/99in/7aB
+        Ff+2gRX/99in//XVov/32Kf/t4IX/////wC4ghSyuIIU/7iAD/+4gRP/uIIUsriCFLK4gRP/uIAP/7iB
+        E/+4ghSyuIIUsriBE/+4gA//uIIU/7iCFLL///8AAAAAAAAAAAB+f4H/AAAAJgAAACYAAAAmAAAAJn5/
+        gf8AAAAmAAAAJgAAACYAAAAmfn+B/wAAAAAAAAAA////AAAAAAAAAAAAfn+B/35/gf9+f4H/fn+B/35/
+        gf9+f4H/fn+B/35/gf9+f4H/fn+B/35/gf8AAAAAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAaAAAAJgAA
+        ACYAAAAmfn+B/wAAACYAAAAmAAAAJgAAABoAAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAAAAINAuACI
+        Qf8Ahz//AIc//wCHP/8Ahz//AIc//wCIQf8Ag0C4AAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAACJ
+        R/8d6LP/AN2g/wDdoP8A3aH/AN2g/wDdoP8d6LP/AIlH/wAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAA
+        AAAAiEX/VOTE/wDMmf8AzJr/AM2a/wDMmv8AzJn/VOTE/wCIRf8AAAAAAAAAAAAAAAD///8AAAAAAAAA
+        AAAAAAAAAIhE/4fo2f8Av5f/AL+X/wC/mP8Av5f/AL+X/4fo2f8AiET/AAAAAAAAAAAAAAAA////AAAA
+        AAAAAAAAAAAAAACJRv+c6uf/mefh/5vn4f+b5+H/m+fh/5nn4f+c6uf/AIlG/wAAAAAAAAAAAAAAAP//
+        /wAAAAAAAAAAAAAAAAAAjUuwAIlG/wCHQ/8Ah0L/AIdC/wCHQv8Ah0P/AIlG/wCNS7AAAAAAAAAAAAAA
+        AAD///8A/////wAB//8AAf//AAH//wAB//8AAf//AAH//8AH///AB///4A///+AP///gD///4A///+AP
+        ///gD///4A///w==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Code Browser</value>
+  </data>
+  <data name="&gt;&gt;cbxLanguage.Name" xml:space="preserve">
+    <value>cbxLanguage</value>
+  </data>
+  <data name="&gt;&gt;cbxLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAutoDetectLanguage.Name" xml:space="preserve">
+    <value>tbAutoDetectLanguage</value>
+  </data>
+  <data name="&gt;&gt;tbAutoDetectLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CodeBrowserDock</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Gamodo.UserInterface.DockBase, Gamodo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

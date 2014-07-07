@@ -1,0 +1,120 @@
+This file contains an overview about the library and viewer history.
+
+//******************************************************************************************************
+Version 0.4 (06 August 2004)
+//******************************************************************************************************
+- Fixed an issue with reading hhc/hhk files containing brackets ().
+
+- Fixed an issue with identifying the master hhc in chm's containing multiple hhc files.
+  In some circumstances this requires a storage enumeration which is slow on chm's with alot of content files.
+
+- Fixed an issue with reading see-also items from text-based hhk-index files
+
+- Fixed an issue with "See Also" index links. The shipped index user control now handles these special
+  index items (IndexEventArgs now holds additional see also information)
+
+- Fixed an issue with decoding urlstr file.
+
+- Fixed an issue with parsing text-based index files. 
+  Items now have the correct indent and deeper levels are supported !
+  
+- Changed accessibility of some internal CHM-decoding classes. 
+  This will allow users of the lib to access more nativ CHM information/data structures.
+  
+- Added the properties ContentFile and FileContents to the classes TOCItem, IndexTopic and TopicEntry.
+  The ContentFile property opens the associated content file and returns an FileObject instance if succeeded.
+  You can use this instance to programmatically access the nativ file contents !
+  The FileContents property directly reads the contents of the associated file and returns them in a string.
+  This property automatically applies the correct CHM encoding to support multiple languages !
+
+//******************************************************************************************************
+Version 0.3 (02 June 2004)
+//******************************************************************************************************
+- Fixed the number of hits displaying in the search pane.
+  If working with merged files, the maximum hits were applied per file not for the whole system.
+  
+- Fixed an issue during data decoding of binary table of contents.
+  The system reads binary TOCs now much faster and doesn't have problems with building the tree in deeper
+  TOC levels.
+
+- Optimized index merging. 
+  Index merging is no longer member of complexity class n². It's now log(n) (using binary search and
+  insertion algorythm)
+  
+- Optimized memory usage. 
+  Especially the memmory usage of table of contents and index items. The title and locale strings
+  are no longer stored as strings in every item (only in CHMs with binary toc and/or index). 
+  The item just holds offsets into the loaded system file data. After opening/merging a file to 
+  the system and updating the UI you should call GC.Collect() to force a garbage collection 
+  (this will free a view MB depending on the amount of CHM data).
+    
+- Added imagelist of standard CHM-Viewer
+  You can now specify which imagelist you want to use by setting the flag HtmlHelpSystem.UseHH2TreePics.
+  The default value is false (HtmlHelp 1.1 tree images will be used).
+  NOTE: Always set this before opening any CHM files and before instantiating the 
+  HtmlHelp.UIComponents.TocTree user control ! Changing it after those steps may result in IndexOutOfBounds
+  exceptions (HH2 imagelist has more images than the HH1.1 one) !
+  
+- Added the method ClearContents() to the three internal user controls (toc-tree, index and search)
+  which allows the user to reset the control's contents if opening new files.
+  
+- Added support for compressed dumping of data (speeds up CHM reloading). 
+  During the file loading process, you can specify if the library should create a data dump, 
+  by passing a DumpingInfo instance to the OpenFile() or MergeFile()  methods. 
+  If the system can't find the dump, it reads the data from the CHM file and creates the 
+  dump file. If the system finds the dump, it loads the data from the dump-file.
+  As you know, the bottleneck of the data extraction are large sitemapfiles 
+  (Regular expression parsing is slow). Enabling the dumping feature, will create a straight 
+  forward dump of these data structures which makes a reload of the CHM file about 50-95% faster 
+  (depending on the toc size and mode (binary or sitemap), compression level and your PC ;) ). 
+  
+- Added support for CHM-Merged file list (see #IDXHDR file)
+  Note: The CHM with the master TOC MUST be opened first ! The MS standard CHM-viewer can also 
+  create the TOC correctly if you open one of the slave CHMs. 
+  This is not supported by the library (TOC tree will contain all topics, but not in a correct tree) !
+
+- Added support for merged TOC-Items in hhc files ("Merge" parameter)
+
+- Added support for information types and categories
+  Information types and categories are only supported for a text-based TOC or Index (by HtmlHelp Workshop).
+  You can define information types in HtmlHelp Workshop and assign them to table of contents nodes and 
+  index entries. This allows a viewer to filter the contents which are displayed to the user.
+  e.g. you can define the information types "SDK Reference", "FAQ", "HOWTOs" etc. and the viewer can
+  filter help contents depending on the user's selection.
+  You can define categories and assign one or more information types to this category. 
+  e.g. define the categories "Beginner", "Intermediate", "Advanced", assign the previously created 
+  information types to the categories and the viewer can filter help contents depending on the user's skill 
+  level.
+  
+- Added an extended HelpProvider component for interacting with the HtmlHelpSystem
+
+- Added native HelpToolTipWindow for adding Popup-Help support for applications using HelpProviderEx class.
+
+//******************************************************************************************************
+Version 0.2 (25th April 2004)
+//******************************************************************************************************
+- Fixed an issue which prevents the classlibrary from loading the correct
+  table of contents file (text based hhc file).
+  This happens in CHMs where the Contents file option of the HHP-File (htmlhelp project) 
+  is not set and the HHC-File name is not the default one 
+  (<chmfile>.hhc or table of contents.hhc). Same for text-based 
+  index files. (found in MSDN-Magazin CHMs)
+  
+- Added international support.
+  The library detetcs the LCID (language code id) and the used codepage and 
+  adjusts the encoding used for converting binary arrays to strings.
+  
+- Fixed the fulltext-search algorythm.
+  Still not 100% working for international languages (didn't find the error till now)
+  
+- Added a classlibrary CHM to the source zip.
+
+- Added a ChmFileInfo class for easily getting system information of 
+  CHM-Files (see loaded files in about dialog of the example viewer)
+  
+- Fixed an URL issue which prevents the IE (newest IE patch) to display linked content files correctly
+
+//******************************************************************************************************
+Version 0.1	(20th April 2004)
+//******************************************************************************************************
+Technology preview release

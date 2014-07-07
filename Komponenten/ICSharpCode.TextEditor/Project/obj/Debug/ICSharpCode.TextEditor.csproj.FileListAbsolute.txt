@@ -1,0 +1,49 @@
+C:\Users\ganry\Desktop\bin\ICSharpCode.TextEditor.dll
+C:\Users\ganry\Desktop\bin\ICSharpCode.TextEditor.pdb
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.dll
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.pdb
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Gui.CompletionWindow.DeclarationViewWindow.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.dll
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.pdb
+C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Resource1.resources
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.dll
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.pdb
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Resource1.resources
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Gui.CompletionWindow.DeclarationViewWindow.resources
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.dll
+C:\Development\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.pdb
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ResolveAssemblyReference.cache
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Resource1.resources
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Gui.CompletionWindow.DeclarationViewWindow.resources
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.read.1.tlog
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.write.1.tlog
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.dll
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.pdb
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.dll
+L:\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.pdb
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ResolveAssemblyReference.cache
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Resource1.resources
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Gui.CompletionWindow.DeclarationViewWindow.resources
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.read.1.tlog
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\GenerateResource.write.1.tlog
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.dll
+G:\Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.pdb
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.dll
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\ICSharpCode.TextEditor.pdb
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Resource1.resources
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.Gui.CompletionWindow.DeclarationViewWindow.resources
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.csproj.GenerateResource.Cache
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.dll
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\obj\Debug\ICSharpCode.TextEditor.pdb
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\DevExpress.Utils.v10.2.dll
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\DevExpress.XtraEditors.v10.2.dll
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\DevExpress.Data.v10.2.dll
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\DevExpress.Utils.v10.2.xml
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\DevExpress.XtraEditors.v10.2.xml
+D:\Development\Software Development\Gamodo - Entwicklung\Gamodo\Komponenten\ICSharpCode.TextEditor\Project\debug\DevExpress.Data.v10.2.xml

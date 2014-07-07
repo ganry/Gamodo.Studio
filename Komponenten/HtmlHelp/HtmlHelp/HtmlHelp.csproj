@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CDFF32F7-DFFB-4F7F-A710-21D3FFDBA8A8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>HtmlHelp</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HtmlHelp</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>HtmlHelp.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <Name>ICSharpCode.SharpZipLib</Name>
+      <HintPath>libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Category.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\BinaryReaderHelp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMBtree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMIdxhdr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMStrings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMTocidx.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMTopics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMUrlstr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\CHMUrltable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\DumpingInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\enumerations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\FullTextEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\HHCParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\HHKParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\TopicEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmDecoding\UrlTableEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChmFileInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HtmlHelpSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndexItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndexTopic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InformationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Storage\FileObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Storage\FileObjectCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Storage\IBaseStorageWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Storage\IStorageWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Storage\ITStorageWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TableOfContents.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TOCItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\helpIndex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIComponents\HelpProviderEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UIComponents\helpSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIComponents\HelpToolTipWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\HitEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\IHelpViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\IndexEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\InfoTypeCategoryFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\ResourceHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\SearchEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\TocEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\TocTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIComponents\TopicsFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIComponents\TopicsFoundEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Resources\ContentTree.bmp" />
+    <EmbeddedResource Include="Resources\HH11.bmp" />
+    <EmbeddedResource Include="UIComponents\helpIndex.resx">
+      <DependentUpon>helpIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIComponents\helpSearch.resx">
+      <DependentUpon>helpSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIComponents\TocTree.resx">
+      <DependentUpon>TocTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIComponents\TopicsFound.resx">
+      <DependentUpon>TopicsFound.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

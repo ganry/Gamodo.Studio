@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabJS.Text" xml:space="preserve">
+    <value>JS</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tbJSFunction.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EditorTab</value>
+  </data>
+  <data name="&gt;&gt;tbPHP.Parent" xml:space="preserve">
+    <value>tabPHP</value>
+  </data>
+  <data name="tabJS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 23</value>
+  </data>
+  <data name="&gt;&gt;tabHtml.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="tbHtmlTable.Text" xml:space="preserve">
+    <value>Insert Html table</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="languageHelp.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabHtml.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.2, Version=10.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="languageHelp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCSS.Name" xml:space="preserve">
+    <value>tabCSS</value>
+  </data>
+  <data name="tbHtmlH1.Text" xml:space="preserve">
+    <value>Wrap with &lt;h1&gt;</value>
+  </data>
+  <data name="tbJSFor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbJSId.Text" xml:space="preserve">
+    <value>Insert getElementById()</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;tbHtml.Parent" xml:space="preserve">
+    <value>tabHtml</value>
+  </data>
+  <data name="tbPHPTry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbHtmlH3.Text" xml:space="preserve">
+    <value>Wrap with &lt;h3&gt;</value>
+  </data>
+  <data name="&gt;&gt;tbCSSColorChooser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlBullet.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlH3.Name" xml:space="preserve">
+    <value>tbHtmlH3</value>
+  </data>
+  <data name="tbCSSColorChooser.Text" xml:space="preserve">
+    <value>Color chooser dialog...</value>
+  </data>
+  <data name="tbHtmlP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbCSS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="DevExpress.Data.v10.2" name="DevExpress.Data.v10.2, Version=10.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="languageHelp.ShowTabHeader" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v10.2">
+    <value>True</value>
+  </data>
+  <data name="tbHtmlImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tabCSS.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;languageHelp.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v10.2, Version=10.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbJSFor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbPHPTry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;languageHelp.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbPHP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbJSSwitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbHtmlForm.Text" xml:space="preserve">
+    <value>Insert &lt;form&gt; tag</value>
+  </data>
+  <data name="tbJSSwitch.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlU.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tabHtml.Parent" xml:space="preserve">
+    <value>languageHelp</value>
+  </data>
+  <data name="tbHtml.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 25</value>
+  </data>
+  <data name="tbHtmlI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbCSSColorPicker.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlB.Text" xml:space="preserve">
+    <value>Wrap with &lt;b&gt;</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlImage.Name" xml:space="preserve">
+    <value>tbHtmlImage</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlU.Name" xml:space="preserve">
+    <value>tbHtmlU</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlBullet.Name" xml:space="preserve">
+    <value>tbHtmlBullet</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;tbPHPComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbCSS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 25</value>
+  </data>
+  <data name="&gt;&gt;tbJSComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tabCSS.Parent" xml:space="preserve">
+    <value>languageHelp</value>
+  </data>
+  <data name="&gt;&gt;tbJSId.Name" xml:space="preserve">
+    <value>tbJSId</value>
+  </data>
+  <data name="&gt;&gt;languageHelp.Name" xml:space="preserve">
+    <value>languageHelp</value>
+  </data>
+  <data name="languageHelp.PaintStyleName" xml:space="preserve">
+    <value>Skin</value>
+  </data>
+  <data name="tbHtmlH2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlI.Name" xml:space="preserve">
+    <value>tbHtmlI</value>
+  </data>
+  <data name="tbHtmlForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbHtmlForm.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>tabJS</value>
+  </data>
+  <data name="&gt;&gt;tbPHPComment.Name" xml:space="preserve">
+    <value>tbPHPComment</value>
+  </data>
+  <data name="&gt;&gt;tbHtml.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbPHPFor.Text" xml:space="preserve">
+    <value>Insert for loop</value>
+  </data>
+  <data name="tbHtml.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbPHPFor.Name" xml:space="preserve">
+    <value>tbPHPFor</value>
+  </data>
+  <data name="&gt;&gt;tbPHPClass.Name" xml:space="preserve">
+    <value>tbPHPClass</value>
+  </data>
+  <data name="tbPHPFor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlH2.Name" xml:space="preserve">
+    <value>tbHtmlH2</value>
+  </data>
+  <data name="tbPHPComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlH1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbJSFunction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tabHtml.Text" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="tbJSTry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlLink.Name" xml:space="preserve">
+    <value>tbHtmlLink</value>
+  </data>
+  <data name="&gt;&gt;tbJSComment.Name" xml:space="preserve">
+    <value>tbJSComment</value>
+  </data>
+  <data name="tbPHPFunction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbPHP.Name" xml:space="preserve">
+    <value>tbPHP</value>
+  </data>
+  <data name="languageHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbJSIf.Name" xml:space="preserve">
+    <value>tbJSIf</value>
+  </data>
+  <data name="tbCSSColorPicker.Text" xml:space="preserve">
+    <value>Choose Color from Pixel</value>
+  </data>
+  <data name="tbHtmlP.Text" xml:space="preserve">
+    <value>Wrap with &lt;p&gt;</value>
+  </data>
+  <data name="tbPHP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 25</value>
+  </data>
+  <data name="tbCSSColorChooser.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAIwSURBVDhPnZJhSFNRGIZvhUwXtShU0KhQKMEIySCCQn8U
+        IZYGZYMVRhCFCYGZFc1dNRqahZWJhBpFlrJgkqi7Ug4XUeAfszAy/6SziEASjMoZ8+k72yTIH9UOvJxz
+        Lt/78H7fPdpq5+PniRd7Sagy/kvKk+g0pjR1aB76wq3BSZr+UapWeZRXW1XpoWNkmpT6YdY3DLPhL1I1
+        qlZ5lFez6D34xmbIfTBOfpuffe1+8kV57RMh7f1DuXLPkbp+8Vh0ASwt7yHaZRavZraHARpW4ihmHXay
+        OM91YkQrYGaNSHZ/NoxmwkgyDGshT6xdJbgwD7hDBpfJ4Ro27lGNAzd7YNYGU8XwoQQmDgkkC3rCAJNd
+        hvgb4COdIQp4SikdOHmCh6sQqIPJFvh0CV4ege4MaIsAyhUg0sIivGQyII284SzvaeQdnQzCjz4x32Xu
+        tR0GJEH/NnDHhBOUG2qI3aFLumOOgw1wpg3qDGjq/0nriznoG4Pe+wQe1fP9ts7X6mN8K9q+EJBSFSSv
+        GY62fKaoSVK4R3HdCDJxBYI3W6FGZ7a2hOnawwLYHAY4VAJHeIjLToyQdryLHaUG+bXPKCv7SOMBeGUV
+        7Z+G04VgLYBd2QR2py4EaGk1LN7ZTJLNxZZCLydNcCoevCuhcwm8XeuCrZsgOUn+eXiIcSqBpcIT7Tti
+        eYUAEs499CmIamVeZjmb9W7iIoqVPVaevEmerkk35LsRMsdXdo1rslJFmVFq4y/T0ce3sVxwdAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="tbHtmlU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="tabHtml.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 23</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlTable.Name" xml:space="preserve">
+    <value>tbHtmlTable</value>
+  </data>
+  <data name="tabCSS.Text" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="tbPHP.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="tbJSComment.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbCSS.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EditorTab</value>
+  </data>
+  <data name="tbHtmlOl.Text" xml:space="preserve">
+    <value>Wrap with &lt;ol&gt;</value>
+  </data>
+  <data name="tbJSId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="languageHelp.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;tbPHP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbJSIf.Text" xml:space="preserve">
+    <value>Insert if statement</value>
+  </data>
+  <data name="&gt;&gt;languageHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbHtmlI.Text" xml:space="preserve">
+    <value>Wrap with &lt;i&gt;</value>
+  </data>
+  <data name="tbPHPComment.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlTable.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbPHP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlDiv.Text" xml:space="preserve">
+    <value>Wrap with &lt;div&gt;</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlH3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbPHPFor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCSS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabJS.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbPHPIf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlH2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlB.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbJSSwitch.Name" xml:space="preserve">
+    <value>tbJSSwitch</value>
+  </data>
+  <data name="tbPHPComment.Text" xml:space="preserve">
+    <value>Wrap with comment</value>
+  </data>
+  <data name="tbCSS.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbHtmlLink.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbPHPClass.Text" xml:space="preserve">
+    <value>Insert Class</value>
+  </data>
+  <data name="&gt;&gt;tbJSId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbJSIf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlSpan.Name" xml:space="preserve">
+    <value>tbHtmlSpan</value>
+  </data>
+  <data name="&gt;&gt;tbHtml.Name" xml:space="preserve">
+    <value>tbHtml</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbHtmlImage.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbCSSColorChooser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 421</value>
+  </data>
+  <data name="&gt;&gt;tbPHPSwitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlForm.Name" xml:space="preserve">
+    <value>tbHtmlForm</value>
+  </data>
+  <data name="tbCSSColorChooser.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlOl.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbPHPSwitch.Name" xml:space="preserve">
+    <value>tbPHPSwitch</value>
+  </data>
+  <data name="tbHtmlImage.Text" xml:space="preserve">
+    <value>Wrap with &lt;img&gt;</value>
+  </data>
+  <data name="tbHtmlDiv.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbPHPSwitch.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="languageHelp.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 255</value>
+  </data>
+  <data name="&gt;&gt;tabCSS.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.2, Version=10.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbCSS.Parent" xml:space="preserve">
+    <value>tabCSS</value>
+  </data>
+  <data name="&gt;&gt;tbPHPTry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbJSFor.Name" xml:space="preserve">
+    <value>tbJSFor</value>
+  </data>
+  <data name="&gt;&gt;tbCSS.Name" xml:space="preserve">
+    <value>tbCSS</value>
+  </data>
+  <data name="&gt;&gt;tabHtml.Name" xml:space="preserve">
+    <value>tabHtml</value>
+  </data>
+  <data name="tbJSTry.Text" xml:space="preserve">
+    <value>Insert try...catch</value>
+  </data>
+  <data name="&gt;&gt;tbJSTry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCSSColorPicker.Name" xml:space="preserve">
+    <value>tbCSSColorPicker</value>
+  </data>
+  <data name="tbHtmlU.Text" xml:space="preserve">
+    <value>Wrap with &lt;u&gt;</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 25</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbJSTry.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlOl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPHP.Name" xml:space="preserve">
+    <value>tabPHP</value>
+  </data>
+  <data name="tbPHPFunction.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlH3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbHtmlH1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbPHP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbCSSColorChooser.Name" xml:space="preserve">
+    <value>tbCSSColorChooser</value>
+  </data>
+  <data name="tbHtmlP.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbHtmlSpan.Text" xml:space="preserve">
+    <value>Wrap with &lt;span&gt;</value>
+  </data>
+  <data name="&gt;&gt;tbJSTry.Name" xml:space="preserve">
+    <value>tbJSTry</value>
+  </data>
+  <data name="&gt;&gt;tbJSSwitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtml.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="tbPHPIf.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbPHPFunction.Name" xml:space="preserve">
+    <value>tbPHPFunction</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="tbHtmlBullet.Text" xml:space="preserve">
+    <value>Wrap with &lt;ul&gt;</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlB.Name" xml:space="preserve">
+    <value>tbHtmlB</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Gamodo.Tabs.DocumentBase, Gamodo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tbHtmlH2.Text" xml:space="preserve">
+    <value>Wrap with &lt;h2&gt;</value>
+  </data>
+  <data name="&gt;&gt;tabJS.Name" xml:space="preserve">
+    <value>tabJS</value>
+  </data>
+  <data name="tbHtml.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbCSSColorPicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlOl.Name" xml:space="preserve">
+    <value>tbHtmlOl</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbJSComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbJSSwitch.Text" xml:space="preserve">
+    <value>Insert switch statement</value>
+  </data>
+  <data name="tbPHPSwitch.Text" xml:space="preserve">
+    <value>Insert switch statement</value>
+  </data>
+  <data name="&gt;&gt;colorDialogEx1.Name" xml:space="preserve">
+    <value>colorDialogEx1</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbJSComment.Text" xml:space="preserve">
+    <value>Wrap with comment</value>
+  </data>
+  <data name="&gt;&gt;tbPHPClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlDiv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlBullet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tabJS.Parent" xml:space="preserve">
+    <value>languageHelp</value>
+  </data>
+  <data name="&gt;&gt;tabJS.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.2, Version=10.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tbPHPIf.Text" xml:space="preserve">
+    <value>Insert if statement</value>
+  </data>
+  <data name="tbHtmlDiv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlI.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;colorDialogEx1.Type" xml:space="preserve">
+    <value>DrawingEx.ColorManagement.ColorDialogEx, DrawingEx, Version=1.0.4008.13158, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbPHPIf.Name" xml:space="preserve">
+    <value>tbPHPIf</value>
+  </data>
+  <data name="tabPHP.Text" xml:space="preserve">
+    <value>PHP</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlH3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbJSFor.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlP.Name" xml:space="preserve">
+    <value>tbHtmlP</value>
+  </data>
+  <data name="&gt;&gt;tabPHP.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.2, Version=10.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabPHP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlSpan.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>661, 421</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbJSId.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbPHPClass.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tbJSIf.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlSpan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPHP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 23</value>
+  </data>
+  <data name="tbHtmlH2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlDiv.Name" xml:space="preserve">
+    <value>tbHtmlDiv</value>
+  </data>
+  <data name="tbHtmlH1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;tabPHP.Parent" xml:space="preserve">
+    <value>languageHelp</value>
+  </data>
+  <data name="&gt;&gt;tbHtml.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbPHPFor.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbJSFunction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlH1.Name" xml:space="preserve">
+    <value>tbHtmlH1</value>
+  </data>
+  <data name="&gt;&gt;tbCSSColorPicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbPHPIf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbJSFor.Text" xml:space="preserve">
+    <value>Insert for loop</value>
+  </data>
+  <data name="&gt;&gt;tbJSFunction.Name" xml:space="preserve">
+    <value>tbJSFunction</value>
+  </data>
+  <data name="&gt;&gt;tbJSIf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbPHPTry.Name" xml:space="preserve">
+    <value>tbPHPTry</value>
+  </data>
+  <data name="tbHtmlLink.Text" xml:space="preserve">
+    <value>Wrap with &lt;a&gt;</value>
+  </data>
+  <data name="tbJSFunction.Text" xml:space="preserve">
+    <value>Insert function</value>
+  </data>
+  <data name="&gt;&gt;tbPHPFunction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbPHPClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbPHPClass.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAEUSURBVDhPY2AYBUSFQMHSF0p5K168y1/xKjR3+ctyEBsk
+        BtccNe2hYNS0m6uipt36D8JBfTffAflpMAXZy56fyV725C4S/13WsuerkAy4eQamGZW+6ZK54JlxxqKn
+        /9MXPpkJ05C+6OlukBhIjgFokwtCE8TWiCm3dodNunU3atrt0JR5D8pT5j38D6JhBqCIgRQhDHgoiB4o
+        8TPvdsTPuvc/btY9uAEgNlwM1QW3Q6EumAkLh8ipt8pBFoBomOEwMXg4ARk4wuB2aOjE68ZhE6/9D+u/
+        Cg8DEBskBrQEEhPosYBuY0DP5d1+XZfhsRDUe/kdECNigVBi8G6/pOTXdeqdX9f5UN/O8+UgNkiMkL4h
+        Ig8Aj//o8HFXv4MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="languageHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 52</value>
+  </data>
+  <data name="&gt;&gt;tbCSS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbHtmlBullet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHtmlOl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbHtmlTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbPHPSwitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tbPHPTry.Text" xml:space="preserve">
+    <value>Insert try...catch</value>
+  </data>
+  <data name="tbPHPFunction.Text" xml:space="preserve">
+    <value>Insert function</value>
+  </data>
+  <data name="languageHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabCSS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 23</value>
+  </data>
+  <metadata name="colorDialogEx1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>373, 19</value>
+  </metadata>
+  <metadata name="tbCSS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>768, 19</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbPHP.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>682, 19</value>
+  </metadata>
+  <metadata name="tbHtml.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>592, 19</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 58</value>
+  </metadata>
+</root>

@@ -1,0 +1,15 @@
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\bin\Release\DrawingEx.dll
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorButton.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorDialogEx.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorFader.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorLabel.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorPicker.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorModels.Selection.ColorSelectionFader.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorModels.Selection.ColorSelectionPlane.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\GenerateResource.read.1.tlog
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\GenerateResource.write.1.tlog
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.dll
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\DrawingEx.ColorManagement.ColorPicker.de-DE.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\obj\Release\de-DE\DrawingEx.resources.dll
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx\bin\Release\de-DE\DrawingEx.resources.dll

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ICSharpCode.TextEditor">
+</Property><Property Name="Projektmappendatei" Value="C:\Users\ganry\Desktop\Gamodo\Komponenten\ICSharpCode.TextEditor\ICSharpCode.TextEditor.sln">
+</Property><Property Name="Date" Value="Tuesday, November 23, 2010">
+</Property><Property Name="Time" Value="15:13 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ICSharpCode.TextEditor.Tests" Source="Test\ICSharpCode.TextEditor.Tests.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="ICSharpCode.TextEditor.Tests" Source="Test\ICSharpCode.TextEditor.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.TextEditor" Source="Project\ICSharpCode.TextEditor.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="ICSharpCode.TextEditor" Source="Project\ICSharpCode.TextEditor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ICSharpCode.TextEditor.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="ICSharpCode.TextEditor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.TextEditor.Tests" Source="Test\ICSharpCode.TextEditor.Tests.csproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.TextEditor" Source="Project\ICSharpCode.TextEditor.csproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>

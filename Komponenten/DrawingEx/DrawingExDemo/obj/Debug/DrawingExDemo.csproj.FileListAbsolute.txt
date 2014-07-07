@@ -1,0 +1,11 @@
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\bin\Debug\DrawingExDemo.exe
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\bin\Debug\DrawingExDemo.pdb
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\bin\Debug\DrawingEx.dll
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\bin\Debug\DrawingEx.pdb
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\DrawingExDemo.Form1.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\DrawingExDemo.icnpicturebox.resources
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\DrawingExDemo.exe
+C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingExDemo\obj\Debug\DrawingExDemo.pdb

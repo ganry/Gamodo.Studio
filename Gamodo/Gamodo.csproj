@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B61136F9-0F2A-470D-8400-0F7D07AFAFE8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gamodo</RootNamespace>
+    <AssemblyName>Gamodo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gamodo_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Gamodo.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveWare.CodeBrowser">
+      <HintPath>..\Komponenten\ActiveWare.CodeBrowser\bin\Release\ActiveWare.CodeBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveWare.CSS">
+      <HintPath>..\Komponenten\ActiveWare.CSSParser\bin\Release\ActiveWare.CSS.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveWare.MagnifyingGlass">
+      <HintPath>..\Komponenten\ActiveWare.MagnifyingGlass\bin\Release\ActiveWare.MagnifyingGlass.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveWare.TabStyleControl, Version=1.0.1.7, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Komponenten\ActiveWare.TabStyleControl\bin\Release\ActiveWare.TabStyleControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Aga.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fcc90fbf924463a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Komponenten\treeviewadv\Aga.Controls\bin\Release\Aga.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v10.2">
+      <HintPath>bin\Debug\DevExpress.Data.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.2">
+      <HintPath>bin\Debug\DevExpress.Utils.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v10.2">
+      <HintPath>bin\Debug\DevExpress.XtraEditors.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DrawingEx">
+      <HintPath>..\Komponenten\DrawingEx\DrawingEx\bin\Release\DrawingEx.dll</HintPath>
+    </Reference>
+    <Reference Include="HelpBrowser">
+      <HintPath>..\Komponenten\ActiveWare.HelpBrowser\bin\Release\HelpBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Komponenten\HtmlAgilityPack\bin\Release\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlHelp, Version=0.4.3987.31758, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Komponenten\ActiveWare.HelpBrowser\bin\Release\HtmlHelp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Html, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Downloads\System.Drawing.Html.002\System.Drawing.Html\System.Drawing.Html\bin\Release\System.Drawing.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.4.0.37401, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DockPanel_Src\WinFormsUI\bin\Release\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\ConfigClass.cs" />
+    <Compile Include="global.cs" />
+    <Compile Include="NewDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDocument.Designer.cs">
+      <DependentUpon>NewDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\DocumentBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\DocumentBase.Designer.cs">
+      <DependentUpon>DocumentBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\EditorTab\AddCodeDialogTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\EditorTab\AddCodeDialogTemplate.Designer.cs">
+      <DependentUpon>AddCodeDialogTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\EditorTab\HighlighterChangedEventArgs.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlAttribute.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlAttributeCompletionData.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlCompletion.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlCompletionDataProvider.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlDefinitionReader.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlTag.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlTagCompletionData.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlCompletion\HtmlValueCompletionData.cs" />
+    <Compile Include="Tabs\AbstractDocument.cs" />
+    <Compile Include="Tabs\EditorTab\Parser\CssDocument.cs" />
+    <Compile Include="Tabs\EditorTab\Parser\CssParser.cs" />
+    <Compile Include="Tabs\EditorTab\Parser\HtmlDocument.cs" />
+    <Compile Include="Tabs\EditorTab\Parser\HtmlParser.cs" />
+    <Compile Include="Tabs\ParserClass.cs" />
+    <Compile Include="Tabs\DocumentList.cs" />
+    <Compile Include="Tabs\EditorTab\Quicklet\CopyMarker.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\CSSBinding\CSSLanguageBinding.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\CSSBinding\CSSParser.cs" />
+    <Compile Include="Tabs\EditorTab\EditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tabs\EditorTab\EditorTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\EditorTab\EditorTab.Designer.cs">
+      <DependentUpon>EditorTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\EditorTab\Quicklet\TemplateList.cs" />
+    <Compile Include="Tabs\EditorTab\Quicklet\TemplateDefinition.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HtmlParser.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HTMLFormattingStrategy.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\HTMLBinding\HTMLLanguageBinding.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\JavaScriptBinding\JSLanguageBinding.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\LanguageBindings.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageFinder.cs" />
+    <Compile Include="Tabs\EditorTab\Quicklet\ExpressionMarker.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\PHPBinding\PHPLanguageBinding.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\PHPBinding\PHPFormattingStrategy.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\PHPBinding\DocumentAccessor.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\PHPBinding\Identation.cs" />
+    <Compile Include="Tabs\EditorTab\LanguageBindings\PHPBinding\PHPFoldingStrategy.cs" />
+    <Compile Include="Tabs\EditorTab\Quicklet\QuickletEngine.cs" />
+    <Compile Include="Tabs\EditorTab\Quicklet\TemplateDefinitionList.cs" />
+    <Compile Include="Tabs\EditorTab\Tools\HighlighterUtils.cs" />
+    <Compile Include="Tabs\EditorTab\Tools\HTMLColorConverter.cs" />
+    <Compile Include="Tabs\EditorTab\Tools\TemplateLoader.cs" />
+    <Compile Include="Tabs\HelpBrowserTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\HelpBrowserTab.Designer.cs">
+      <DependentUpon>HelpBrowserTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\Interface\IEditCommands.cs" />
+    <Compile Include="Tabs\Interface\IBaseTab.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tabs\Interface\ICloseAble.cs" />
+    <Compile Include="Tabs\Interface\ISaveAble.cs" />
+    <Compile Include="Tabs\EditorTab\Quicklet\QuickMarker.cs" />
+    <Compile Include="Tabs\StartPage\StartPageTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\StartPage\StartPageTab.Designer.cs">
+      <DependentUpon>StartPageTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextResource.de-DE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextResource.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TextResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DesktopColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DesktopColor.Designer.cs">
+      <DependentUpon>DesktopColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Docks\CodeBrowserDock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Docks\CodeBrowserDock.Designer.cs">
+      <DependentUpon>CodeBrowserDock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Docks\DockBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Docks\DockBase.Designer.cs">
+      <DependentUpon>DockBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Docks\HelpBrowserDock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Docks\HelpBrowserDock.designer.cs">
+      <DependentUpon>HelpBrowserDock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Office2007Renderer\Office2007BlueColorTable.cs" />
+    <Compile Include="UserInterface\Office2007Renderer\Office2007Helpers.cs" />
+    <Compile Include="UserInterface\Office2007Renderer\Office2007Renderer.cs" />
+    <Compile Include="UserInterface\Office2007Renderer\Office2007SilverColorTable.cs" />
+    <EmbeddedResource Include="MainForm.de-DE.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDocument.de-DE.resx">
+      <DependentUpon>NewDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDocument.resx">
+      <DependentUpon>NewDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tabs\DocumentBase.resx">
+      <DependentUpon>DocumentBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\EditorTab\AddCodeDialogTemplate.de-DE.resx">
+      <DependentUpon>AddCodeDialogTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\EditorTab\AddCodeDialogTemplate.resx">
+      <DependentUpon>AddCodeDialogTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\EditorTab\EditorTab.de-DE.resx">
+      <DependentUpon>EditorTab.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\EditorTab\EditorTab.resx">
+      <DependentUpon>EditorTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\HelpBrowserTab.resx">
+      <DependentUpon>HelpBrowserTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\StartPage\StartPageTab.de-DE.resx">
+      <DependentUpon>StartPageTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\StartPage\StartPageTab.resx">
+      <DependentUpon>StartPageTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TextResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextResource.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TextResource.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DesktopColor.resx">
+      <DependentUpon>DesktopColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\Docks\CodeBrowserDock.resx">
+      <DependentUpon>CodeBrowserDock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\Docks\DockBase.resx">
+      <DependentUpon>DockBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\Docks\HelpBrowserDock.de-DE.resx">
+      <DependentUpon>HelpBrowserDock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\Docks\HelpBrowserDock.resx">
+      <DependentUpon>HelpBrowserDock.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Komponenten\ICSharpCode.TextEditor\Project\ICSharpCode.TextEditor.csproj">
+      <Project>{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}</Project>
+      <Name>ICSharpCode.TextEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gamodo_icon.ico" />
+    <None Include="Resources\color_picker.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\copy.png" />
+    <None Include="Resources\try.png" />
+    <None Include="Resources\switch.png" />
+    <None Include="Resources\if.png" />
+    <None Include="Resources\id.png" />
+    <None Include="Resources\function.png" />
+    <None Include="Resources\FOR.png" />
+    <None Include="Resources\comment.png" />
+    <None Include="Resources\text_underline.png" />
+    <None Include="Resources\text_list_numbers.png" />
+    <None Include="Resources\text_list_bullets.png" />
+    <None Include="Resources\text_italic.png" />
+    <None Include="Resources\text_heading_3.png" />
+    <None Include="Resources\text_heading_2.png" />
+    <None Include="Resources\text_heading_1.png" />
+    <None Include="Resources\text_bold.png" />
+    <None Include="Resources\table2.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\span.png" />
+    <None Include="Resources\picture_add.png" />
+    <None Include="Resources\form.png" />
+    <None Include="Resources\edit-strike.png" />
+    <None Include="Resources\edit-pilcrow.png" />
+    <None Include="Resources\div.png" />
+    <None Include="Resources\color-picker.png" />
+    <None Include="Resources\anchor.png" />
+    <None Include="Resources\close_all.png" />
+    <None Include="Resources\application_delete.png" />
+    <None Include="Resources\php_16.png" />
+    <None Include="Resources\js_16.png" />
+    <None Include="Resources\html_16.png" />
+    <None Include="Resources\CSS_16.png" />
+    <None Include="Resources\empty.png" />
+    <None Include="Resources\saveas.png" />
+    <None Include="Resources\saveall.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\open2.png" />
+    <None Include="Resources\newDocument.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

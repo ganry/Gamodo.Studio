@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DrawingEx">
+</Property><Property Name="Projektmappendatei" Value="C:\Users\ganry\Desktop\Gamodo\Komponenten\DrawingEx\DrawingEx.sln">
+</Property><Property Name="Date" Value="Monday, November 29, 2010">
+</Property><Property Name="Time" Value="16:55 PM">
+</Property></Properties><Event ErrorLevel="0" Project="DrawingExDemo" Source="DrawingExDemo\DrawingExDemo.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="DrawingExDemo" Source="DrawingExDemo\DrawingExDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DrawingEx" Source="DrawingEx\DrawingEx.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="DrawingEx" Source="DrawingEx\DrawingEx.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DrawingEx.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="DrawingEx.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DrawingExDemo" Source="DrawingExDemo\DrawingExDemo.csproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event><Event ErrorLevel="0" Project="DrawingEx" Source="DrawingEx\DrawingEx.csproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>
