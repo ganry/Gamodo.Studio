@@ -11,7 +11,7 @@ You need Visual Studio 2008.
 
 ![Mainscreen](/screens/mainscreen.jpg)
 
-I used some third party components but there are heavily customized so updating to a new version is gonna be a problem. Here are some features which are stable:
+Here are some features that are stable at the moment. There are lots of features I've started to implement but couldn't finish it, there are not listed here.
 
 ##Code Parser##
 
