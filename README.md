@@ -34,7 +34,7 @@ Sample Quicklet xml
 
 ## Editor Control
 
-I'dont remember all highlights of this one, but you can look at the source.
+I used the SharpDevelop Control as basis, at the time of writing it wasn't maintained by the SharpDevelop Team so I continued development and basically implemented all features Visual Studio 2008 had at this point. So if you are searching for a great Editor Control for WinForms, I recommand using mine. As far as I know, it is the most stable and feature richest feature richest  Editor Control for WinForms out there.
 
 ![Editor Control](/screens/editor_control.jpg)
 
